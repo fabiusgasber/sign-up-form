@@ -8,6 +8,11 @@
     font-family: montserrat;
     src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
+label {
+    font-size: 14px;
+    font-weight: 200;
+}
+
 input{
     appearance: none;
     border: none;
