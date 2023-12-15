@@ -8,6 +8,19 @@
     font-family: montserrat;
     src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+
+ul > li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 label {
     font-size: 14px;
     font-weight: 200;
