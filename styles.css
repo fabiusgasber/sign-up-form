@@ -1,0 +1,10 @@
+:root{
+    background-color: black;
+    font-family: montserrat, sans-serif;
+    color: coral;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
