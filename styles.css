@@ -41,6 +41,8 @@
 .logo-container > img {
     width: 200px;
     height: auto;
+    position: absolute;
+    top: 30px;
 }
 
 .leftSide {
