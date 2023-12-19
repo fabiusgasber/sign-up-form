@@ -1,12 +1,16 @@
 :root{
-    --main-color: coral;
-    background-color: black;
+    --main-color: black;
+    --sec-color: white;
+    background-color: white;
     font-family: montserrat, sans-serif;
     font-size: clamp(16px, 1.5vw, 2rem);
     color: var(--main-color);
+    box-sizing: border-box;
+}
+
+:root, body, *::before, *::after{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 @font-face {
