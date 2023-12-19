@@ -54,7 +54,7 @@ main {
 
 div > p{
     margin-top: 5rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.5;
     padding: 0 2rem;
 }
@@ -67,6 +67,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     row-gap: 1rem;
+    width: min(90%, 1000px);
 }
 
 ul > li {
@@ -74,11 +75,12 @@ ul > li {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-right: 1rem;
 }
 
 label {
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 input{
