@@ -135,3 +135,23 @@ input:required + span::after{
     font-size: 10px;
 }
 
+button{
+    border: 0;
+    padding: 10px;
+    background-color: green;
+    font-family: inherit;
+    color: var(--sec-color);
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: rgb(2, 154, 2);
+}
+
+button:active{
+    box-shadow: inset 0px 0px 28px 0px green;
+}
+
