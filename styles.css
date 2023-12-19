@@ -155,3 +155,20 @@ button:active{
     box-shadow: inset 0px 0px 28px 0px green;
 }
 
+.lower{
+    margin-left: 50px;
+}
+
+p:last-child{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+a {
+   text-decoration:none;
+   color: green;
+}
+
+a:hover{
+    color: rgb(2, 154, 2);
+}
