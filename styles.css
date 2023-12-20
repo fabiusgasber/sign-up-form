@@ -29,6 +29,14 @@
     align-items: center;
 }
 
+.logo-container > p {
+    color: var(--sec-color);
+    letter-spacing: 0.5rem;
+    margin-top: 170px;
+    font-size: 2em;
+    font-weight: 300;
+}
+
 .banner {
     background-image: url(images/bg-img.jpg);
     background-repeat: no-repeat;
