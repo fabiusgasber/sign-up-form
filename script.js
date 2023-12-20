@@ -5,6 +5,15 @@ const pwd2 = document.getElementById("pwd2");
 
 inputs.forEach((input) => {
     input.addEventListener("blur", (e) => {
-        e.target.nextElementSibling.classList.add("icon");
+        setIcons(e);
+        setOutlines(e);
     });
 });
+
+inputs.forEach((input) => {
+    input.addEventListener("focus", (e) => {
+        removeIcons(e);
+        removeOutlines(e);
+    });
+});
+
