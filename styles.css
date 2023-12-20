@@ -118,6 +118,7 @@ input + span::before{
     position: absolute;
     right: 12px;
     top: -25px;
+    padding-right: 4em;
 }
 
 input:valid + .icon::before{
@@ -165,7 +166,7 @@ button:active{
     margin-left: 50px;
 }
 
-p:last-child{
+.lower > p:last-child{
     font-size: 12px;
     font-weight: 500;
 }
