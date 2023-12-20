@@ -33,3 +33,8 @@ function removeOutlines(e){
     e.target.style.outline = "3px solid #1515d8";
 }
 
+function setPasswordValidity(e){
+    pwd1.value !== pwd2.value ? e.target.setCustomValidity("Invalid.") : e.target.setCustomValidity("");
+}
+
+pwd2.addEventListener("keyup", setPasswordValidity);
