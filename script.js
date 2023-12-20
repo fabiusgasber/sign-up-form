@@ -17,3 +17,19 @@ inputs.forEach((input) => {
     });
 });
 
+function removeIcons(e){
+    e.target.nextElementSibling.className = "";
+}
+
+function setIcons(e){
+   e.target.nextElementSibling.className = "icon";
+}
+
+function setOutlines(e){
+    e.target.checkValidity() ? e.target.style.outline = "3px solid green" : e.target.style.outline = "3px solid red";
+}
+
+function removeOutlines(e){
+    e.target.style.outline = "3px solid #1515d8";
+}
+
