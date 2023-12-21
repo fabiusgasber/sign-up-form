@@ -86,6 +86,11 @@ ul {
     row-gap: 1rem;
 }
 
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 ul > li {
     list-style-type: none;
     display: flex;
@@ -192,5 +197,15 @@ a:hover{
     .banner {
         width: 100vw;
         height: 100vh;
+    }
+    ul {
+        justify-content: center;
+        align-items: center;
+    }
+    form {
+        justify-content: center;
+    }
+    .rightSide > p {
+        text-align: center;
     }
 }
