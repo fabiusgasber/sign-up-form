@@ -31,9 +31,9 @@
 
 .logo-container > p {
     color: var(--sec-color);
-    letter-spacing: 0.5rem;
+    letter-spacing: 10px;
     margin-top: 170px;
-    font-size: 2em;
+    font-size: 46px;
     font-weight: 300;
 }
 
