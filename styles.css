@@ -7,9 +7,13 @@
     color: var(--main-color);
     box-sizing: border-box;
 }
-:root, body, *::before, *::after, fieldset, form, input, ul, li{
+:root, body, *::before, *::after, fieldset, form, input, ul, li, p{
     margin: 0;
     padding: 0;
+}
+
+p {
+    margin: 1rem 0;
 }
 
 @font-face {
@@ -31,7 +35,7 @@
 .logo-container > p {
     color: var(--sec-color);
     letter-spacing: 10px;
-    margin-top: 170px;
+    margin-top: 150px;
     font-size: 46px;
     font-weight: 300;
 }
@@ -149,7 +153,7 @@ button{
     background-color: green;
     font-family: inherit;
     color: var(--sec-color);
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     font-weight: 500;
     font-size: 17px;
     border-radius: 15px;
