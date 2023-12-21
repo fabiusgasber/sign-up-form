@@ -7,7 +7,6 @@
     color: var(--main-color);
     box-sizing: border-box;
 }
-
 :root, body, *::before, *::after{
     margin: 0;
     padding: 0;
@@ -71,8 +70,7 @@ main {
     flex-wrap: wrap;
 }
 
-div > p{
-    margin-top: 5rem;
+.rightSide > p{
     font-weight: 700;
     line-height: 1.5;
     padding: 0 2rem;
@@ -86,7 +84,6 @@ ul {
     display: flex;
     flex-wrap: wrap;
     row-gap: 1rem;
-    width: min(90%, 1000px);
 }
 
 ul > li {
@@ -94,7 +91,6 @@ ul > li {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-right: 1rem;
 }
 
 label {
@@ -107,10 +103,10 @@ input{
     border: none;
     border-radius: 10px;
     padding: 7px;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
     margin-top: 0.3rem;
     font-size: 16px;
-    width: 300px;
+    width: 12rem;
     outline: 1px solid black;
 }
 
