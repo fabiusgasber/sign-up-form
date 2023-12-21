@@ -34,7 +34,7 @@ function removeOutlines(e){
 }
 
 function setPasswordValidity(e){
-    pwd1.value !== pwd2.value ? e.target.setCustomValidity("Passwort stimmt nicht überein.") : e.target.setCustomValidity("");
+    pwd1.value !== pwd2.value ? e.target.setCustomValidity("Passwords don't match.") : e.target.setCustomValidity("");
 }
 
 pwd2.addEventListener("keyup", setPasswordValidity);
