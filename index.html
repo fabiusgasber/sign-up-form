@@ -45,12 +45,16 @@
                         </li>
                         <li>                           
                             <label for="pwd">Password</label>
-                            <input type="password" id="pwd" name="pwd" required>
+                            <input type="password" id="pwd" name="pwd" required pattern="(?=^.{6,}$)(?=.*[a-z]+)(?=.*[A-Z]+)(?=.*\d+)(?!.*\s)(?!.*\,).*$">
                             <span></span>
+                            <p>Needs to have min. 6 Characters</p>
+                            <p>Must have at least one uppercase letter</p>
+                            <p>Must have at least one lower case letter</p>
+                            <p>Must have at least one digit</p>
                         </li>
                         <li>                           
                             <label for="pwd2">Confirm password</label>
-                            <input type="password" id="pwd2" name="pwd2" required>
+                            <input type="password" id="pwd2" name="pwd2" required pattern="(?=^.{6,}$)(?=.*[a-z]+)(?=.*[A-Z]+)(?=.*\d+)(?!.*\s)(?!.*\,).*$">
                             <span></span>
                         </li>
                     </ul>
