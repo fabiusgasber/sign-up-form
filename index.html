@@ -44,13 +44,16 @@
                             <span></span>
                         </li>
                         <li>                           
-                            <label for="pwd">Password</label>
+                            <label for="pwd">Password <img class="info" alt="info" src="images/info.png">
+                                <div class="pwd-rules">
+                                    <p>Needs to have min. 6 Characters</p>
+                                    <p>Must have at least one uppercase letter</p>
+                                    <p>Must have at least one lower case letter</p>
+                                    <p>Must have at least one digit</p>
+                                </div>
+                            </label>
                             <input type="password" id="pwd" name="pwd" required pattern="(?=^.{6,}$)(?=.*[a-z]+)(?=.*[A-Z]+)(?=.*\d+)(?!.*\s)(?!.*\,).*$">
                             <span></span>
-                            <p>Needs to have min. 6 Characters</p>
-                            <p>Must have at least one uppercase letter</p>
-                            <p>Must have at least one lower case letter</p>
-                            <p>Must have at least one digit</p>
                         </li>
                         <li>                           
                             <label for="pwd2">Confirm password</label>
