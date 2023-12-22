@@ -19,6 +19,16 @@ p {
     margin: 1rem 0;
 }
 
+span ~ p {
+    font-size: 10px;
+    margin: 0;
+    display: none;
+}
+
+li p:first-of-type{
+    margin-top: 0.5rem;
+}
+
 @font-face {
     font-family: montserrat;
     src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
